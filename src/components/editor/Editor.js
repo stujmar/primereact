@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { classNames } from '../utils/ClassNames';
 import Quill from "quill";
-import 'quill/dist/quill.snow.css';
-import 'quill/dist/quill.bubble.css';
 
 export class Editor extends Component {
 

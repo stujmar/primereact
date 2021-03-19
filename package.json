@@ -1,10 +1,10 @@
 {
-  "name": "primereact",
-  "version": "6.2.2-SNAPSHOT",
+  "name": "primenext",
+  "version": "1.0.0",
   "homepage": ".",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primefaces/primereact.git"
+    "url": "https://github.com/stujmar/primereact.git"
   },
   "license": "MIT",
   "keywords": [

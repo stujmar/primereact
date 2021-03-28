@@ -13,11 +13,12 @@ var _propTypes = _interopRequireDefault(require("prop-types"));
 
 var _ClassNames = require("../utils/ClassNames");
 
-var _quill = _interopRequireDefault(require("quill"));
+// var _quill = _interopRequireDefault(require("quill"));
+const _quill = typeof window === 'object' ? _interopRequireDefault(require("quill")) : () => false; //Source https://github.com/zenoamaro/react-quill/issues/122
 
-require("quill/dist/quill.snow.css");
+// require("quill/dist/quill.snow.css");
 
-require("quill/dist/quill.bubble.css");
+// require("quill/dist/quill.bubble.css");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
